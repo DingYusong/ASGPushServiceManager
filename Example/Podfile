@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ASGPushServiceManager_Example' do
+  pod 'ASGPushServiceManager', :path => '../'
+
+  target 'ASGPushServiceManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
