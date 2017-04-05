@@ -1,0 +1,25 @@
+PODS:
+  - ASGPushServiceManager (0.1.0):
+    - JPush (~> 3.0.2)
+    - UMengPush (~> 1.5.0)
+  - JCore (1.1.1)
+  - JPush (3.0.2):
+    - JCore (~> 1.1.1)
+  - UMengPush (1.5.0)
+
+DEPENDENCIES:
+  - ASGPushServiceManager (from `../`)
+
+EXTERNAL SOURCES:
+  ASGPushServiceManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ASGPushServiceManager: bf2abc613acffad30f8fcb7e1a7360f89178749a
+  JCore: 2210a789c8efb7dc2a46b1c24d2209b995b18ad2
+  JPush: 01a693fafe51b93eafc2e368bbc7a7cc07e12ce4
+  UMengPush: fad4725b8377687277ecaaccc2da5f695e0b20af
+
+PODFILE CHECKSUM: d5713524218c15bec3db9a1f166dee7316bd278e
+
+COCOAPODS: 1.2.0

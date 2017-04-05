@@ -1,0 +1,30 @@
+{
+  "name": "ASGPushServiceManager",
+  "version": "0.1.0",
+  "summary": "a push manager of umeng and jpush",
+  "description": "provide a push manager of umeng and jpush",
+  "homepage": "https://github.com/DingYusong/ASGPushServiceManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "DingYusong": "yusong.ding@huangjinqianbao.com"
+  },
+  "source": {
+    "git": "https://github.com/DingYusong/ASGPushServiceManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ASGPushServiceManager/*",
+  "dependencies": {
+    "JPush": [
+      "~> 3.0.2"
+    ],
+    "UMengPush": [
+      "~> 1.5.0"
+    ]
+  }
+}
