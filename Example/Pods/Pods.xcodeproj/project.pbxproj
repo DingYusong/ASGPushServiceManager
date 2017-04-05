@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		041DB6F867E54D8FE65A1250DA08354E /* Pods-ASGPushServiceManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1A719357860281F3EC467AF57A599C /* Pods-ASGPushServiceManager_Tests-dummy.m */; };
-		13FA4D910106D47831EEF71D4DBDB871 /* UMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = F1FC0DD5E43447C356EF9B6C9DFF4431 /* UMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4435536C5E371C0AF0B855F01D638EF2 /* UMengPush-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB3FE7EECF486E584B0AF79E0AFF3B7 /* UMengPush-dummy.m */; };
-		4CE6DA80EA13B288FAA7974961402F76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55BCBE3DC13E2B06B41164A85D5B9B3 /* Foundation.framework */; };
+		62356417BAA20B9ABC2079EF54795E9B /* UMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = F1FC0DD5E43447C356EF9B6C9DFF4431 /* UMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6912CE9D94EA9A31FEC4F1AE62E35AAF /* ASGJPushManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C894016BE83D342903A5E14039EDED30 /* ASGJPushManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A2C774582217986F049BD70B0692F81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55BCBE3DC13E2B06B41164A85D5B9B3 /* Foundation.framework */; };
-		78FB0150AB6F40EC4F746E8DB524665E /* ASGPushServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 886B2F57C396B858935D51B1BA656A93 /* ASGPushServiceManager.m */; };
-		7EF092F056EBAF4B170024448677C349 /* ASGPushServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6A448A3202ADDF07DAECE7704413DD /* ASGPushServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AA06138066E8612D6F40F0584E35EFC /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A818D48F9CA6FC4481CA0EEB22AA105C /* UserNotifications.framework */; };
+		810BF9476877404E51DAFC009794F42D /* ASGPushServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 368FEAF18D1828BA36A364F3402E419D /* ASGPushServiceManager.m */; };
+		82F9B7379AAE8E2C43BD4A8FA93463A1 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A818D48F9CA6FC4481CA0EEB22AA105C /* UserNotifications.framework */; };
+		8A3C7B5885FD22F53836C29F0521D286 /* UMengPush-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB3FE7EECF486E584B0AF79E0AFF3B7 /* UMengPush-dummy.m */; };
+		8F58FCA08D99BCD353F47C1CEA8ED768 /* ASGJPushManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D397E40E2A45FE8B239F08E37FA05F /* ASGJPushManager.m */; };
 		9FFC4C686A326B600FD8A21A756B0854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55BCBE3DC13E2B06B41164A85D5B9B3 /* Foundation.framework */; };
-		A00488CEFDE469E192298A870F0CB43A /* libUMessage_Sdk_1.5.0a.a in Sources */ = {isa = PBXBuildFile; fileRef = CFFF3F1C42740F66B9B1E6B1201A5548 /* libUMessage_Sdk_1.5.0a.a */; };
 		A8A54EC84CBEFB9A450FFE83774B5F87 /* Pods-ASGPushServiceManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF3DE392B85FFECA9F853BE883E667E /* Pods-ASGPushServiceManager_Example-dummy.m */; };
-		E4611EE0276679E8341F31496FB03499 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55BCBE3DC13E2B06B41164A85D5B9B3 /* Foundation.framework */; };
-		E4629A73BF1BD3696693D5F44729771B /* ASGPushServiceManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F25B7A67C9E45A62A34D171244259A00 /* ASGPushServiceManager-dummy.m */; };
+		B14818E0F9D1DD36F586B200491DE4F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55BCBE3DC13E2B06B41164A85D5B9B3 /* Foundation.framework */; };
+		B55288C65F9FB0E6D0E1D83FE053AFF3 /* ASGUPushManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8B3D280A4B143C65D550D71F95BF5B /* ASGUPushManager.m */; };
+		C5E2B2DD6D5F74DB89BB6CDBBBEC35F6 /* ASGPushServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 791DDCD58E0B9F7F545CC962D34E780F /* ASGPushServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C833D422D271885DC342A36B0197C8AD /* libUMessage_Sdk_1.5.0a.a in Sources */ = {isa = PBXBuildFile; fileRef = CFFF3F1C42740F66B9B1E6B1201A5548 /* libUMessage_Sdk_1.5.0a.a */; };
+		C93B76047F48AC4346BD7C3B0B111AE7 /* ASGUPushManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E0D6680D751EFD6BB9131CB5152FE6B2 /* ASGUPushManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE08A9FFA5157D78B1DB3EDFB620F8E4 /* ASGPushServiceManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC90F5E3F8D7CB8CA87B272642805AC0 /* ASGPushServiceManager-dummy.m */; };
+		FC44E9DEBCA36C2D161E1417CD47D14D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55BCBE3DC13E2B06B41164A85D5B9B3 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,29 +31,30 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 24829847FB00FD714BC8039839C4D5AE;
+			remoteGlobalIDString = A5EF24D5E3AC76484E57E2C7BF65280C;
 			remoteInfo = UMengPush;
 		};
-		7A50839959E4CA52221147BFD993D7CC /* PBXContainerItemProxy */ = {
+		9D6F75AA44E3D57D693178333A402076 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 24829847FB00FD714BC8039839C4D5AE;
+			remoteGlobalIDString = A5EF24D5E3AC76484E57E2C7BF65280C;
 			remoteInfo = UMengPush;
 		};
 		C8647DDC1417C517DFA9B6C2E4D411FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2F33BA54DD19F9186099397B45030A6E;
+			remoteGlobalIDString = 0C1F37BA331C1A72C459F3224BC4DD79;
 			remoteInfo = ASGPushServiceManager;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0678E1F317A11AC6DA67DD1919B85543 /* ASGPushServiceManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASGPushServiceManager-prefix.pch"; sourceTree = "<group>"; };
 		2BB3FE7EECF486E584B0AF79E0AFF3B7 /* UMengPush-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UMengPush-dummy.m"; sourceTree = "<group>"; };
+		2E8B3D280A4B143C65D550D71F95BF5B /* ASGUPushManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ASGUPushManager.m; sourceTree = "<group>"; };
 		32E8A450B0E7CC6C754EA9C5E95C8F98 /* Pods-ASGPushServiceManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASGPushServiceManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		368FEAF18D1828BA36A364F3402E419D /* ASGPushServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ASGPushServiceManager.m; sourceTree = "<group>"; };
 		3DF3DE392B85FFECA9F853BE883E667E /* Pods-ASGPushServiceManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASGPushServiceManager_Example-dummy.m"; sourceTree = "<group>"; };
 		3F577B3802666A9409FAF637E315F523 /* Pods-ASGPushServiceManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASGPushServiceManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		406A67D2B46C4B1CEC31FCEFEBA1303D /* Pods-ASGPushServiceManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASGPushServiceManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -57,39 +62,50 @@
 		46D1F1D07C270726AF8D78D4293837DF /* libUMengPush.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libUMengPush.a; path = libUMengPush.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E291102EAE6DDD12AA8C8C686E3C957 /* libASGPushServiceManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libASGPushServiceManager.a; path = libASGPushServiceManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		592D54C0EEDFEF8372E38C239CD15769 /* libjpush-ios-3.0.2.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-ios-3.0.2.a"; sourceTree = "<group>"; };
+		5A710982CC3072D25820BBD854D4B61E /* ASGPushServiceManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASGPushServiceManager-prefix.pch"; sourceTree = "<group>"; };
 		6470E5C7C9F34B865625ECDBDF84B0C6 /* Pods-ASGPushServiceManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASGPushServiceManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		78845AB8E4900A4D3F81B17A83D43B8B /* Pods-ASGPushServiceManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASGPushServiceManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		791DDCD58E0B9F7F545CC962D34E780F /* ASGPushServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ASGPushServiceManager.h; sourceTree = "<group>"; };
 		83F03C1B5F95282683539FB7B61E919C /* Pods-ASGPushServiceManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASGPushServiceManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		842BAD08A8A9D2A3DC3642E124EA219A /* Pods-ASGPushServiceManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASGPushServiceManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8699611978C56F63D120F4DBBF481FF3 /* Pods-ASGPushServiceManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASGPushServiceManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		886B2F57C396B858935D51B1BA656A93 /* ASGPushServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ASGPushServiceManager.m; sourceTree = "<group>"; };
 		8B7C023D519A1B9CEBB340C2CC5C198B /* UMengPush-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UMengPush-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95EB9F5493D823A1E0089FFD46521626 /* UMengPush.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMengPush.xcconfig; sourceTree = "<group>"; };
 		A818D48F9CA6FC4481CA0EEB22AA105C /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = DEVELOPER_DIR; };
 		AB57D60A60C07E326AE9F1D036755C57 /* Pods-ASGPushServiceManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASGPushServiceManager_Example-resources.sh"; sourceTree = "<group>"; };
+		AC90F5E3F8D7CB8CA87B272642805AC0 /* ASGPushServiceManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASGPushServiceManager-dummy.m"; sourceTree = "<group>"; };
 		B55BCBE3DC13E2B06B41164A85D5B9B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BF1EF7C559230BD03D0EA5C215EA65A8 /* ASGPushServiceManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASGPushServiceManager.xcconfig; sourceTree = "<group>"; };
+		C894016BE83D342903A5E14039EDED30 /* ASGJPushManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ASGJPushManager.h; sourceTree = "<group>"; };
 		CB3524EEC0EDD91B5AB486F2F0E4AF47 /* Pods-ASGPushServiceManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASGPushServiceManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CC9996B9DEEEC3697629A5E27B4B9E4F /* libPods-ASGPushServiceManager_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ASGPushServiceManager_Example.a"; path = "libPods-ASGPushServiceManager_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFFF3F1C42740F66B9B1E6B1201A5548 /* libUMessage_Sdk_1.5.0a.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libUMessage_Sdk_1.5.0a.a; path = UMengPush/libUMessage_Sdk_1.5.0a.a; sourceTree = "<group>"; };
 		D1F0413FE093F67EB7316015E0D803E7 /* JPUSHService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
 		DB1A719357860281F3EC467AF57A599C /* Pods-ASGPushServiceManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASGPushServiceManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		E0D397E40E2A45FE8B239F08E37FA05F /* ASGJPushManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ASGJPushManager.m; sourceTree = "<group>"; };
+		E0D6680D751EFD6BB9131CB5152FE6B2 /* ASGUPushManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ASGUPushManager.h; sourceTree = "<group>"; };
 		E186CCFA73E5F00162AD99587A622517 /* libPods-ASGPushServiceManager_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ASGPushServiceManager_Tests.a"; path = "libPods-ASGPushServiceManager_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E37EA5F1D72828C622EF9E98288D3192 /* libjcore-ios-1.1.1.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-1.1.1.a"; sourceTree = "<group>"; };
-		E5AF456FAAA72B4997537D8A733B7B9F /* ASGPushServiceManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASGPushServiceManager.xcconfig; sourceTree = "<group>"; };
 		E64D0A45AA1033A651E848C3888E6A2B /* Pods-ASGPushServiceManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASGPushServiceManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F1FC0DD5E43447C356EF9B6C9DFF4431 /* UMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMessage.h; path = UMengPush/UMessage.h; sourceTree = "<group>"; };
-		F25B7A67C9E45A62A34D171244259A00 /* ASGPushServiceManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASGPushServiceManager-dummy.m"; sourceTree = "<group>"; };
-		FC6A448A3202ADDF07DAECE7704413DD /* ASGPushServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ASGPushServiceManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6B034421A930FB23C655451C53999979 /* Frameworks */ = {
+		4D9B34A4118FDB0433355D4A616A775C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CE6DA80EA13B288FAA7974961402F76 /* Foundation.framework in Frameworks */,
-				9AA06138066E8612D6F40F0584E35EFC /* UserNotifications.framework in Frameworks */,
+				FC44E9DEBCA36C2D161E1417CD47D14D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8DE322C3EE9381D6F5EBE3A1BA274C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14818E0F9D1DD36F586B200491DE4F6 /* Foundation.framework in Frameworks */,
+				82F9B7379AAE8E2C43BD4A8FA93463A1 /* UserNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,14 +114,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FFC4C686A326B600FD8A21A756B0854 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8BC4432145F452CBA0232FCA2D5BF871 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4611EE0276679E8341F31496FB03499 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,33 +146,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		27691898161E920FF318DAE92958AD40 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E5AF456FAAA72B4997537D8A733B7B9F /* ASGPushServiceManager.xcconfig */,
-				F25B7A67C9E45A62A34D171244259A00 /* ASGPushServiceManager-dummy.m */,
-				0678E1F317A11AC6DA67DD1919B85543 /* ASGPushServiceManager-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ASGPushServiceManager";
-			sourceTree = "<group>";
-		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				7AAA0B60DCB8C59E3EDE62193B64C491 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		482F4E6137956EE39A192596BC6AE29E /* ASGPushServiceManager */ = {
-			isa = PBXGroup;
-			children = (
-				E9A0AD4F9515DB2B38D00D63446FA604 /* ASGPushServiceManager */,
-				27691898161E920FF318DAE92958AD40 /* Support Files */,
-			);
-			name = ASGPushServiceManager;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		4EE6B98D8437EC1CE171D74CB81863D7 /* Support Files */ = {
@@ -193,6 +180,16 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A063C2AC492EBD8CF8F4F432169EC41 /* ASGPushServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				881E1E3400E2066BB2E4C7EA23DEFFD5 /* ASGPushServiceManager */,
+				ED41F95802B206EA47BA224C0AA564BA /* Support Files */,
+			);
+			name = ASGPushServiceManager;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7AAA0B60DCB8C59E3EDE62193B64C491 /* iOS */ = {
@@ -229,6 +226,20 @@
 			);
 			name = "Pods-ASGPushServiceManager_Tests";
 			path = "Target Support Files/Pods-ASGPushServiceManager_Tests";
+			sourceTree = "<group>";
+		};
+		881E1E3400E2066BB2E4C7EA23DEFFD5 /* ASGPushServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				C894016BE83D342903A5E14039EDED30 /* ASGJPushManager.h */,
+				E0D397E40E2A45FE8B239F08E37FA05F /* ASGJPushManager.m */,
+				791DDCD58E0B9F7F545CC962D34E780F /* ASGPushServiceManager.h */,
+				368FEAF18D1828BA36A364F3402E419D /* ASGPushServiceManager.m */,
+				E0D6680D751EFD6BB9131CB5152FE6B2 /* ASGUPushManager.h */,
+				2E8B3D280A4B143C65D550D71F95BF5B /* ASGUPushManager.m */,
+			);
+			name = ASGPushServiceManager;
+			path = ASGPushServiceManager;
 			sourceTree = "<group>";
 		};
 		8D5DF3FEB94ACBA74A1AB77365BCBCC3 /* Frameworks */ = {
@@ -298,43 +309,64 @@
 		E509B7F9818820BDAD50E59CE4F76088 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				482F4E6137956EE39A192596BC6AE29E /* ASGPushServiceManager */,
+				6A063C2AC492EBD8CF8F4F432169EC41 /* ASGPushServiceManager */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		E9A0AD4F9515DB2B38D00D63446FA604 /* ASGPushServiceManager */ = {
+		ED41F95802B206EA47BA224C0AA564BA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FC6A448A3202ADDF07DAECE7704413DD /* ASGPushServiceManager.h */,
-				886B2F57C396B858935D51B1BA656A93 /* ASGPushServiceManager.m */,
+				BF1EF7C559230BD03D0EA5C215EA65A8 /* ASGPushServiceManager.xcconfig */,
+				AC90F5E3F8D7CB8CA87B272642805AC0 /* ASGPushServiceManager-dummy.m */,
+				5A710982CC3072D25820BBD854D4B61E /* ASGPushServiceManager-prefix.pch */,
 			);
-			name = ASGPushServiceManager;
-			path = ASGPushServiceManager;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ASGPushServiceManager";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7C67BB6A5C97D945CAA2535842509DD6 /* Headers */ = {
+		19CD96E5EFB9C11FB087C59EE6DBD881 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EF092F056EBAF4B170024448677C349 /* ASGPushServiceManager.h in Headers */,
+				62356417BAA20B9ABC2079EF54795E9B /* UMessage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D41FB2A8110F577C0C459AB774B770CD /* Headers */ = {
+		5E1211CCDA98CBEAF48D1B4D2A0B9A83 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13FA4D910106D47831EEF71D4DBDB871 /* UMessage.h in Headers */,
+				6912CE9D94EA9A31FEC4F1AE62E35AAF /* ASGJPushManager.h in Headers */,
+				C5E2B2DD6D5F74DB89BB6CDBBBEC35F6 /* ASGPushServiceManager.h in Headers */,
+				C93B76047F48AC4346BD7C3B0B111AE7 /* ASGUPushManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0C1F37BA331C1A72C459F3224BC4DD79 /* ASGPushServiceManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7225703C799DB59C211BC1ED5591F60B /* Build configuration list for PBXNativeTarget "ASGPushServiceManager" */;
+			buildPhases = (
+				A2BA8AC67D5253FE98D4017358110FF5 /* Sources */,
+				4D9B34A4118FDB0433355D4A616A775C /* Frameworks */,
+				5E1211CCDA98CBEAF48D1B4D2A0B9A83 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9D4712FF95C51A37030A3194188D649 /* PBXTargetDependency */,
+			);
+			name = ASGPushServiceManager;
+			productName = ASGPushServiceManager;
+			productReference = 4E291102EAE6DDD12AA8C8C686E3C957 /* libASGPushServiceManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		1E2BBC3B9B1551744875BCC39FBBD9CC /* Pods-ASGPushServiceManager_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEC431A94B9D1F6E47F89AD08F109F93 /* Build configuration list for PBXNativeTarget "Pods-ASGPushServiceManager_Example" */;
@@ -353,41 +385,6 @@
 			productReference = CC9996B9DEEEC3697629A5E27B4B9E4F /* libPods-ASGPushServiceManager_Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		24829847FB00FD714BC8039839C4D5AE /* UMengPush */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2B2A1EB2DB7ABC2438F885AD72079F56 /* Build configuration list for PBXNativeTarget "UMengPush" */;
-			buildPhases = (
-				DA306295805C8D0DDF0A2685B5A475E9 /* Sources */,
-				6B034421A930FB23C655451C53999979 /* Frameworks */,
-				D41FB2A8110F577C0C459AB774B770CD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = UMengPush;
-			productName = UMengPush;
-			productReference = 46D1F1D07C270726AF8D78D4293837DF /* libUMengPush.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		2F33BA54DD19F9186099397B45030A6E /* ASGPushServiceManager */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E7777953B11D35070EBF44E4570447D2 /* Build configuration list for PBXNativeTarget "ASGPushServiceManager" */;
-			buildPhases = (
-				BCD979537CD438726BA6841F83814DF9 /* Sources */,
-				8BC4432145F452CBA0232FCA2D5BF871 /* Frameworks */,
-				7C67BB6A5C97D945CAA2535842509DD6 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				823F40DDA4FCC749208F89C846A7EC6F /* PBXTargetDependency */,
-			);
-			name = ASGPushServiceManager;
-			productName = ASGPushServiceManager;
-			productReference = 4E291102EAE6DDD12AA8C8C686E3C957 /* libASGPushServiceManager.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		5AC54068A1D111F8494BE55E4B77191E /* Pods-ASGPushServiceManager_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62804C2495B6C12A95875565FCBC4D1C /* Build configuration list for PBXNativeTarget "Pods-ASGPushServiceManager_Tests" */;
@@ -402,6 +399,23 @@
 			name = "Pods-ASGPushServiceManager_Tests";
 			productName = "Pods-ASGPushServiceManager_Tests";
 			productReference = E186CCFA73E5F00162AD99587A622517 /* libPods-ASGPushServiceManager_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A5EF24D5E3AC76484E57E2C7BF65280C /* UMengPush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0FEEC19C91C42459450719821430C63 /* Build configuration list for PBXNativeTarget "UMengPush" */;
+			buildPhases = (
+				7045B3CC0DD0DB024277659F448F3D6F /* Sources */,
+				4F8DE322C3EE9381D6F5EBE3A1BA274C /* Frameworks */,
+				19CD96E5EFB9C11FB087C59EE6DBD881 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UMengPush;
+			productName = UMengPush;
+			productReference = 46D1F1D07C270726AF8D78D4293837DF /* libUMengPush.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -425,10 +439,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2F33BA54DD19F9186099397B45030A6E /* ASGPushServiceManager */,
+				0C1F37BA331C1A72C459F3224BC4DD79 /* ASGPushServiceManager */,
 				1E2BBC3B9B1551744875BCC39FBBD9CC /* Pods-ASGPushServiceManager_Example */,
 				5AC54068A1D111F8494BE55E4B77191E /* Pods-ASGPushServiceManager_Tests */,
-				24829847FB00FD714BC8039839C4D5AE /* UMengPush */,
+				A5EF24D5E3AC76484E57E2C7BF65280C /* UMengPush */,
 			);
 		};
 /* End PBXProject section */
@@ -450,21 +464,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BCD979537CD438726BA6841F83814DF9 /* Sources */ = {
+		7045B3CC0DD0DB024277659F448F3D6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4629A73BF1BD3696693D5F44729771B /* ASGPushServiceManager-dummy.m in Sources */,
-				78FB0150AB6F40EC4F746E8DB524665E /* ASGPushServiceManager.m in Sources */,
+				C833D422D271885DC342A36B0197C8AD /* libUMessage_Sdk_1.5.0a.a in Sources */,
+				8A3C7B5885FD22F53836C29F0521D286 /* UMengPush-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA306295805C8D0DDF0A2685B5A475E9 /* Sources */ = {
+		A2BA8AC67D5253FE98D4017358110FF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A00488CEFDE469E192298A870F0CB43A /* libUMessage_Sdk_1.5.0a.a in Sources */,
-				4435536C5E371C0AF0B855F01D638EF2 /* UMengPush-dummy.m in Sources */,
+				8F58FCA08D99BCD353F47C1CEA8ED768 /* ASGJPushManager.m in Sources */,
+				CE08A9FFA5157D78B1DB3EDFB620F8E4 /* ASGPushServiceManager-dummy.m in Sources */,
+				810BF9476877404E51DAFC009794F42D /* ASGPushServiceManager.m in Sources */,
+				B55288C65F9FB0E6D0E1D83FE053AFF3 /* ASGUPushManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,37 +490,37 @@
 		3BEE08381F4EC739DDA61D5F7537A0CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UMengPush;
-			target = 24829847FB00FD714BC8039839C4D5AE /* UMengPush */;
+			target = A5EF24D5E3AC76484E57E2C7BF65280C /* UMengPush */;
 			targetProxy = 4D1383A6467305476E400DE84E9F4F07 /* PBXContainerItemProxy */;
-		};
-		823F40DDA4FCC749208F89C846A7EC6F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UMengPush;
-			target = 24829847FB00FD714BC8039839C4D5AE /* UMengPush */;
-			targetProxy = 7A50839959E4CA52221147BFD993D7CC /* PBXContainerItemProxy */;
 		};
 		8B6EE5128D7BA8B5B1090AAEB786D9C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ASGPushServiceManager;
-			target = 2F33BA54DD19F9186099397B45030A6E /* ASGPushServiceManager */;
+			target = 0C1F37BA331C1A72C459F3224BC4DD79 /* ASGPushServiceManager */;
 			targetProxy = C8647DDC1417C517DFA9B6C2E4D411FC /* PBXContainerItemProxy */;
+		};
+		D9D4712FF95C51A37030A3194188D649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMengPush;
+			target = A5EF24D5E3AC76484E57E2C7BF65280C /* UMengPush */;
+			targetProxy = 9D6F75AA44E3D57D693178333A402076 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2FEE8322EF1B089FD830C732407E2C2A /* Release */ = {
+		5B5CFEF2EB95E8E302654ED28857A990 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5AF456FAAA72B4997537D8A733B7B9F /* ASGPushServiceManager.xcconfig */;
+			baseConfigurationReference = BF1EF7C559230BD03D0EA5C215EA65A8 /* ASGPushServiceManager.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/ASGPushServiceManager/ASGPushServiceManager-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -513,7 +529,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		89867E441936852B15557841A030ED2E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -578,6 +594,29 @@
 			};
 			name = Release;
 		};
+		94A7D9D750F7DDFF55F9480C09C1A557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95EB9F5493D823A1E0089FFD46521626 /* UMengPush.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UMengPush/UMengPush-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		9932228147C47CEBA42EC4AAECED648F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 83F03C1B5F95282683539FB7B61E919C /* Pods-ASGPushServiceManager_Tests.debug.xcconfig */;
@@ -596,29 +635,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		99C2A936904529EFBD9619F9EA9B6D43 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95EB9F5493D823A1E0089FFD46521626 /* UMengPush.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UMengPush/UMengPush-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -668,6 +684,52 @@
 			};
 			name = Debug;
 		};
+		A0C98C554EC76919EEB62BA3479EEDB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF1EF7C559230BD03D0EA5C215EA65A8 /* ASGPushServiceManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ASGPushServiceManager/ASGPushServiceManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A4AB31B4634E14D0EA38BBC040F39A4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95EB9F5493D823A1E0089FFD46521626 /* UMengPush.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UMengPush/UMengPush-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		BFCC8AA80D48405506B3BED9A36D6842 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3F577B3802666A9409FAF637E315F523 /* Pods-ASGPushServiceManager_Example.debug.xcconfig */;
@@ -690,52 +752,6 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
-		};
-		DFAEB128E1F884E3A3F1E6F824D56CF7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5AF456FAAA72B4997537D8A733B7B9F /* ASGPushServiceManager.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ASGPushServiceManager/ASGPushServiceManager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		F42089B6E3945E115249CE0DD489F651 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95EB9F5493D823A1E0089FFD46521626 /* UMengPush.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UMengPush/UMengPush-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
 		};
 		F5C6015F211318453A7203D397F5D83A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -763,15 +779,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B2A1EB2DB7ABC2438F885AD72079F56 /* Build configuration list for PBXNativeTarget "UMengPush" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				99C2A936904529EFBD9619F9EA9B6D43 /* Debug */,
-				F42089B6E3945E115249CE0DD489F651 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -790,6 +797,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		7225703C799DB59C211BC1ED5591F60B /* Build configuration list for PBXNativeTarget "ASGPushServiceManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5CFEF2EB95E8E302654ED28857A990 /* Debug */,
+				A0C98C554EC76919EEB62BA3479EEDB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CEC431A94B9D1F6E47F89AD08F109F93 /* Build configuration list for PBXNativeTarget "Pods-ASGPushServiceManager_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -799,11 +815,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7777953B11D35070EBF44E4570447D2 /* Build configuration list for PBXNativeTarget "ASGPushServiceManager" */ = {
+		F0FEEC19C91C42459450719821430C63 /* Build configuration list for PBXNativeTarget "UMengPush" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DFAEB128E1F884E3A3F1E6F824D56CF7 /* Debug */,
-				2FEE8322EF1B089FD830C732407E2C2A /* Release */,
+				A4AB31B4634E14D0EA38BBC040F39A4D /* Debug */,
+				94A7D9D750F7DDFF55F9480C09C1A557 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
